@@ -9,7 +9,8 @@ int FibonacciNumber (int num)
     return FibonacciNumber(num - 1) + FibonacciNumber(num - 2); 
 } 
 
-// Function to print fibonacci series  
+// Function to print fibonacci series  FOR SPACE OPTIMISATION
+
 int FibonacciSeries (int num)  
 {  
     int a = 0, b = 1, i;  
